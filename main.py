@@ -7,6 +7,7 @@ import signal
 import atexit
 from discord.ext import commands
 from dotenv import load_dotenv
+from discord_embeb import create_raid_embed, RaidView
 
 # Charger les variables d’environnement
 load_dotenv()
